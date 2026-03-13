@@ -300,7 +300,7 @@ public class MotorPH_Automatic_Payroll_System {
             }
 
             empCount++;
-            System.out.println("Employees loaded: " + empCount);
+            //System.out.println("Employees loaded: " + empCount);
         }
     }
     
@@ -675,6 +675,7 @@ public class MotorPH_Automatic_Payroll_System {
     
            
 }//end of MotorPH_Automatic_Payroll_System
+
 
 
 
