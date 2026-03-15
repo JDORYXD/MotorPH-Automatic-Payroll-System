@@ -393,9 +393,9 @@ public class MotorPH_Automatic_Payroll_System {
 
     double worked = out - in;
 
-    // Lunch break
-    if (worked > 4)
-        worked = worked - 1; // -1 for lunch break
+    // Lunch deduction only if employee worked through lunch
+    if (in < 12 && out > 13)
+        worked -= 1;
 
     if (worked < 0)
         worked = 0;
